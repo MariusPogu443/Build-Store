@@ -1,0 +1,95 @@
+
+<html lang="fr-FR">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Build Store - Explorer</title>
+    <link rel="shortcut icon" href="icons.png" type="images/png"/>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <script src="https://kit.fontawesome.com/e0ee6af32a.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+
+        <header class="main-head">
+            <nav>
+                <a href="/accueil.html"><img src="logov2.png" id="logo" title="Build Store - Acceuille"></a>
+
+
+                <ul>
+                    <li><a href="/accueil.html"><b>Accueil</b></a></li>
+                    <li><a href="" id="explorerp"><b>Explorer</b></a></li>
+                    <li><a id="com" class="Com"><b>Communauté</b></a></li>
+                </ul>
+
+                <div class="search-box">
+
+                    <input id="box-search" class="search-txt" type="text" value="" onchange="openPage()" placeholder="Rechercher">
+
+                    <a class="search-btn" id="btn-search" name="closebox" href="#">
+                        <i class="fa-solid fa-magnifying-glass" ></i>
+                    </a>
+
+                    <span id="clearbox" class="clear" onclick="document.getElementById('box-search').value = ''"></span>
+                    <div class="autosearch">
+                    </div>
+                </div>
+
+                <!-- <div class="connexion">
+                    <a href="#"> <i id='icons' class="fa-solid fa-user"></i></a>
+                </div> -->
+            </nav>
+            <div name="close" id="boxchoix" class="diverschoix">
+                <li id="list"><a href="https://discord.gg/P3zJb9pWVT" target="_blank">Discord</a></li>
+                <li id="list"><a href="">Team</a></li>
+            </div>
+        </header>
+
+        <div class="nav2">
+            <div>
+                <li class="toutp"><a href="">Tout</a></li>
+                <li><a href="/catégories/pompier.html">Sapeurs-pompier</a></li>
+                <li><a href="/catégories/gendarmerie.html">Gendarmerie-nationale</a></li>
+            </div>
+        </div>
+
+        <div class="contnarvente">
+            <div class="Box" id="test">
+                <img src="/PSE.png">
+            </div>
+        </div>
+
+        <!-- Cookie -->
+
+        <!-- <div class="cookieblock" id="boxcookie">
+            <div class="textcookie">Copyright &copy; mariuspogu44 2022 - 2023 - Right Reserved </div>
+            <div class="acceptedcookie">
+                <a href="#" id="btn-cookie">OK, j'accepte</a>
+            </div>
+        </div> -->
+
+        <footer>
+                <p>
+                    2022-2023 &copy; <span title="Site de téléchargement de models gratuit roblox" style="cursor:help;">Build Store</span>
+                    , Tous droits réservés.
+                    <br>
+                    Liens utiles : 
+                    <a href="mailto:storebuilde@gmail.com">Email</a>
+                     - 
+
+                     <a href="https://discord.gg/P3zJb9pWVT" target="_blank">Discord (News & Support)</a>
+                </p>
+
+                <h5 title="Pseudo discord du createur">mariuspogu44#6433</h5>
+
+                <a href="https://www.roblox.com/home" title="roblox.com" target="_blank" class="roblox"><img src="Roblox_player_icon_blacksvg.png"></a>
+                <a href="https://discord.com/" title="discord.com" target="_blank" class="discord"><img src="discord.png"></a>
+        </footer>
+
+        <script src="index.js"></script>
+        <script src="suggestion.js"></script>
+    </body>
+
+
+</html>
